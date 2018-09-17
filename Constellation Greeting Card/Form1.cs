@@ -25,6 +25,12 @@ namespace Constellation_Greeting_Card
 
         private void Form1_Click(object sender, EventArgs e)
         {
+            titleLabel.Visible = false;
+            titleLabel.Refresh();
+            Graphics g = this.CreateGraphics();
+            Pen drawPen = new Pen(Color.Red, 10);
+            SolidBrush drawBrush = new SolidBrush(Color.Black);
+            Font drawFont = new Font("Arial", 16, FontStyle.Bold);
 
         }
 

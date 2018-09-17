@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.title = new System.Windows.Forms.Label();
+            this.titleLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // title
+            // titleLabel
             // 
-            this.title.AutoSize = true;
-            this.title.BackColor = System.Drawing.Color.Transparent;
-            this.title.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.title.Font = new System.Drawing.Font("Microsoft JhengHei", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.Location = new System.Drawing.Point(21, 47);
-            this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(280, 49);
-            this.title.TabIndex = 0;
-            this.title.Text = "The Big Dipper";
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.BackColor = System.Drawing.Color.Transparent;
+            this.titleLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.titleLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Location = new System.Drawing.Point(21, 47);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(280, 49);
+            this.titleLabel.TabIndex = 0;
+            this.titleLabel.Text = "The Big Dipper";
             // 
             // label1
             // 
@@ -63,7 +63,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(546, 392);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.title);
+            this.Controls.Add(this.titleLabel);
             this.Name = "Form1";
             this.Text = "Greeting Card";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -75,7 +75,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label title;
+        private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.Label label1;
     }
 }
