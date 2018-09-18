@@ -35,7 +35,7 @@ namespace Constellation_Greeting_Card
 
             //sets up drawing tools needed for later
             Graphics g = this.CreateGraphics();
-            Pen drawPen = new Pen(Color.Red, 10);
+            Pen drawPen = new Pen(Color.Aquamarine, 4);
             SolidBrush drawBrush = new SolidBrush(Color.White);
             Font drawFont = new Font("Arial", 16, FontStyle.Bold);
 
@@ -50,14 +50,22 @@ namespace Constellation_Greeting_Card
             Thread.Sleep(1000);          
             g.FillEllipse(drawBrush, 210, 145, 8, 8);
             Thread.Sleep(1000);
+            g.FillEllipse(drawBrush, 210, 175, 8, 8);
+            Thread.Sleep(1000);
+            g.FillEllipse(drawBrush, 250, 185, 8, 8);
+            Thread.Sleep(1000);
             g.FillEllipse(drawBrush, 260, 150, 8, 8);
-            Thread.Sleep(1000);
-            g.FillEllipse(drawBrush, 210, 210, 8, 8);
-            Thread.Sleep(1000);           
-            g.FillEllipse(drawBrush, 250, 230, 8, 8);
-            Thread.Sleep(1000);
-            
+            Thread.Sleep(1000);                               
 
+            //make lines between the stars to draw the constellation/asterism
+            g.DrawLine(drawPen, 120, 125, 150, 135);
+            g.DrawLine(drawPen, 150, 135, 180, 140);
+            g.DrawLine(drawPen, 180, 140, 210, 145);
+            g.DrawLine(drawPen, 210, 145, 210, 175);
+            g.DrawLine(drawPen, 210, 175, 250, 185);
+            g.DrawLine(drawPen, 250, 185, 260, 150);
+            g.DrawLine(drawPen, 260, 150, 210, 145);
+           
 
         }
 
