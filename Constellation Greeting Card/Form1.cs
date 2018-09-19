@@ -42,30 +42,35 @@ namespace Constellation_Greeting_Card
             g.Clear(Color.Black);
 
             //individually draw every 'star' and keep them on-screen
-            g.FillEllipse(drawBrush, 120, 125, 8, 8);
+            g.FillEllipse(drawBrush, 78, 222, 8, 8);
             Thread.Sleep(1000);       
-            g.FillEllipse(drawBrush, 150, 135, 8, 8);
+            g.FillEllipse(drawBrush, 154, 185, 8, 8);
             Thread.Sleep(1000);          
-            g.FillEllipse(drawBrush, 180, 140, 8, 8);
+            g.FillEllipse(drawBrush, 212, 191, 8, 8);
             Thread.Sleep(1000);          
-            g.FillEllipse(drawBrush, 210, 145, 8, 8);
+            g.FillEllipse(drawBrush, 284, 194, 8, 8);
             Thread.Sleep(1000);
-            g.FillEllipse(drawBrush, 210, 175, 8, 8);
+            g.FillEllipse(drawBrush, 321, 242, 8, 8);
             Thread.Sleep(1000);
-            g.FillEllipse(drawBrush, 250, 185, 8, 8);
+            g.FillEllipse(drawBrush, 418, 205, 8, 8);
             Thread.Sleep(1000);
-            g.FillEllipse(drawBrush, 260, 150, 8, 8);
+            g.FillEllipse(drawBrush, 401, 135, 8, 8);
             Thread.Sleep(1000);                               
 
-            //make lines between the stars to draw the constellation/asterism
+            /*make lines between the stars to draw the constellation/asterism
             g.DrawLine(drawPen, 120, 125, 150, 135);
+            Thread.Sleep(1000);
+            //ADD SOUNDS
             g.DrawLine(drawPen, 150, 135, 180, 140);
             g.DrawLine(drawPen, 180, 140, 210, 145);
             g.DrawLine(drawPen, 210, 145, 210, 175);
             g.DrawLine(drawPen, 210, 175, 250, 185);
             g.DrawLine(drawPen, 250, 185, 260, 150);
             g.DrawLine(drawPen, 260, 150, 210, 145);
-           
+
+            g.DrawString("The Big Dipp...er is blah blah blah", drawFont, drawBrush, 50, 40);
+            */
+
 
         }
 
