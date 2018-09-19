@@ -42,6 +42,28 @@ namespace Constellation_Greeting_Card
             g.Clear(Color.Black);
 
             //individually draw every 'star' and keep them on-screen
+            //beginning with unrelated stars, which have less time between appearances   
+
+            g.FillEllipse(drawBrush, 134, 143, 3, 3);
+            Thread.Sleep(1000);
+            g.FillEllipse(drawBrush, 367, 84, 3, 3);
+            Thread.Sleep(900);
+            g.FillEllipse(drawBrush, 256, 231, 3, 3);
+            Thread.Sleep(800);
+            g.FillEllipse(drawBrush, 140, 313, 3, 3);
+            Thread.Sleep(600);
+            g.FillEllipse(drawBrush, 427, 354, 3, 3);
+            Thread.Sleep(300);
+            g.FillEllipse(drawBrush, 118, 262, 3, 3);
+            Thread.Sleep(100);
+            g.FillEllipse(drawBrush, 118, 262, 3, 3);
+            Thread.Sleep(100);
+            g.FillEllipse(drawBrush, 118, 262, 3, 3);
+            Thread.Sleep(100);
+            //remember to add 40 degrees to all future little stars
+
+
+            //now the constellation stars, which have more time between appearances
             g.FillEllipse(drawBrush, 78, 222, 8, 8);
             Thread.Sleep(1000);       
             g.FillEllipse(drawBrush, 154, 185, 8, 8);
@@ -75,6 +97,7 @@ namespace Constellation_Greeting_Card
             Thread.Sleep(700);
 
             g.DrawString("The Big Dipp...er is blah blah blah", drawFont, drawBrush, 50, 40);
+            //stay on here, don't go away and do weird stuff pls.
             
 
 
