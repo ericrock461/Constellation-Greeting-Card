@@ -58,20 +58,20 @@ namespace Constellation_Greeting_Card
             Thread.Sleep(1000);                               
 
             //make lines between the stars to draw the constellation/asterism
-            g.DrawLine(drawPen, 78, 222, 154, 185);
+            g.DrawLine(drawPen, 82, 226, 158, 189);
             Thread.Sleep(700);
             //ADD SOUNDS
-            g.DrawLine(drawPen, 154, 185, 212, 191);
+            g.DrawLine(drawPen, 158, 189, 216, 195);
             Thread.Sleep(700);
-            g.DrawLine(drawPen, 212, 191, 284, 194);
+            g.DrawLine(drawPen, 216, 195, 288, 198);
             Thread.Sleep(700);
-            g.DrawLine(drawPen, 284, 194, 321, 242);
+            g.DrawLine(drawPen, 288, 198, 325, 246);
             Thread.Sleep(700);
-            g.DrawLine(drawPen, 321, 242, 418, 205);
+            g.DrawLine(drawPen, 325, 246, 422, 209);
             Thread.Sleep(700);
-            g.DrawLine(drawPen, 418, 205, 401, 135);
+            g.DrawLine(drawPen, 422, 209, 405, 139);
             Thread.Sleep(700);
-            g.DrawLine(drawPen, 401, 135, 284, 194);
+            g.DrawLine(drawPen, 405, 139, 288, 198);
             Thread.Sleep(700);
 
             g.DrawString("The Big Dipp...er is blah blah blah", drawFont, drawBrush, 50, 40);
