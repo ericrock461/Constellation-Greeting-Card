@@ -26,18 +26,18 @@ namespace Constellation_Greeting_Card
 
         private void Form1_Click(object sender, EventArgs e)
         {
+            //sets up drawing tools needed for later
+            Graphics g = this.CreateGraphics();
+            Pen drawPen = new Pen(Color.Aquamarine, 4);
+            SolidBrush drawBrush = new SolidBrush(Color.White);
+            Font drawFont = new Font("Arial", 8, FontStyle.Bold);
+
             //deletes everything on-screen after clicking program
             titleLabel.Visible = false;
             titleLabel.Refresh();
             this.BackgroundImage = null;
             clickLabel.Visible = false;
             clickLabel.Refresh();
-
-            //sets up drawing tools needed for later
-            Graphics g = this.CreateGraphics();
-            Pen drawPen = new Pen(Color.Aquamarine, 4);
-            SolidBrush drawBrush = new SolidBrush(Color.White);
-            Font drawFont = new Font("Arial", 8, FontStyle.Bold);
 
             g.Clear(Color.Black);
             Thread.Sleep(1000);
@@ -143,10 +143,7 @@ namespace Constellation_Greeting_Card
                 "\nMegrez (δ), of third magnitude (Megrez is the star in the middle). " +
                 "\nFour define a 'bowl' and three define a 'handle'. " +
                 "\nIt is recognized as a distinct grouping in many cultures.", drawFont, drawBrush, 50, 30);
-            //stay on here, don't go away and do weird stuff pls.
             
-
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
