@@ -82,5 +82,23 @@
   <ItemGroup>
     <None Include="Resources\big dipper ladle.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13934__adcbicycle__6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\320905__suzenako__the-ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\411749__natty23__bell-ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\434201__wangzhuokun__anime-sword-shing-synth-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35678__jobro__laser10.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\151022__bubaproducer__laser-shot-silenced.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

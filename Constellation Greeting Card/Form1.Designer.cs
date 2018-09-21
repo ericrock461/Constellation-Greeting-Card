@@ -59,7 +59,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Constellation_Greeting_Card.Properties.Resources.big_dipper_ladle;
+            this.BackgroundImage = global::Constellation_Greeting_Card.Properties.Resources.bigLadel;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(559, 419);
             this.Controls.Add(this.clickLabel);
